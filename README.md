@@ -1,12 +1,11 @@
 # M Before Bed
 
-This version connects the **Dear M** form to the Basin endpoint.
+Final site version.
 
-## Publishing
-Upload the contents of this folder to the root of the `mbeforebed.github.io` repository and commit the changes.
-
-## Dear M inbox
-Submissions from the Dear M form are sent to the Basin form endpoint configured in `dear-m.html`.
-The public site does not ask for a name or email address.
+## Update the live site
+Upload the **contents** of this folder to the root of the `mbeforebed.github.io` repository and commit the changes.
 
 The custom domain remains `mbeforebed.com`; no DNS changes are needed.
+
+## Dear M
+The page design is ready, but the submission form still needs a real form endpoint before it can receive messages.
