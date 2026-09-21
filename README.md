@@ -1,7 +1,11 @@
-# M Before Bed — Version 2
+# M Before Bed
 
-This version keeps the original cozy template, makes **M** uppercase, removes most explanatory homepage copy, and lets the writing lead.
+Final site version.
 
-Current first entry: **Starting here**.
+## Update the live site
+Upload the **contents** of this folder to the root of the `mbeforebed.github.io` repository and commit the changes.
 
-To update the live site, upload the contents of this folder to the root of the `mbeforebed.github.io` repository and replace files when GitHub asks.
+The custom domain remains `mbeforebed.com`; no DNS changes are needed.
+
+## Dear M
+The page design is ready, but the submission form still needs a real form endpoint before it can receive messages.
