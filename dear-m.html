@@ -1,1 +1,28 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dear M — M Before Bed</title><link rel="stylesheet" href="styles.css"></head><body><header><a class="brand" href="index.html"><span class="brand-m">M</span> Before Bed.</a><nav><a href="index.html">home</a><a href="read.html">read</a><a href="dear-m.html">Dear M</a><a href="about.html">about</a></nav></header><main><section class="pagehero wrap"><small>DEAR M</small><h1>tell me what’s on your mind.</h1><p>You can leave your name, or not. Share a question, a story, a worry, or something you need to put somewhere outside of yourself.</p></section><section class="formcard"><p class="note"><strong>Privacy note:</strong> Please don’t include names, addresses, workplaces, medical details, or other identifying information. Some submissions may be discussed or shared anonymously on M Before Bed.</p><form onsubmit="event.preventDefault(); alert('The Dear M mailbox is not connected yet. We’ll connect it before launch.');"><label for="name">name <span class="note">(optional)</span></label><input id="name" placeholder="anonymous is okay"><label for="email">email <span class="note">(optional)</span></label><input id="email" type="email" placeholder="only if you want a reply"><label for="message">what’s on your mind?</label><textarea id="message" required placeholder="Dear M..."></textarea><button class="btn" type="submit">send to m</button></form><p class="note">The mailbox is intentionally disabled until we connect a private form service, so nothing you type here is sent anywhere yet.</p></section></main><footer><div class="wrap"><strong><span class="brand-m">M</span> Before Bed.</strong><p>© 2026 M Before Bed</p></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dear M — M Before Bed</title>
+<meta name="description" content="Send a letter to M Before Bed.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Italianno&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header shell">
+<a class="logo" href="/"><span class="script-m">M</span><span>M BEFORE BED</span></a>
+<nav><a href="/">Home</a><a href="/read.html">Archive</a><a href="/dear-m.html">Dear M</a><span class="moon">☾</span></nav>
+</header>
+<main class="dear-page shell">
+<form class="dear-card standalone" action="https://usebasin.com/f/3659bcba7d7a" method="POST">
+<div class="gold-moon">☾</div><h1>Dear M</h1>
+<label for="letter">What’s on your mind?</label>
+<textarea id="letter" name="letter" required placeholder="Write your letter here..."></textarea>
+<label class="consent"><input type="checkbox" name="permission_to_share" value="yes"><span>You may share or discuss my letter on M Before Bed, without identifying me.</span></label>
+<button type="submit">Send →</button>
+<p class="form-note">Feel free to send whatever is weighing on your mind or heart. ♥<br>Your letter stays private unless you check the box above.</p>
+</form>
+</main>
+<footer class="shell"><span>M BEFORE BED</span><span>♥</span></footer>
+</body></html>
