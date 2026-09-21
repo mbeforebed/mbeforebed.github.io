@@ -1,4 +1,7 @@
-# M Before Bed
-Something to read before you sleep.
+# M Before Bed — Version 2
 
-This is the starter site for mbeforebed.com. The Dear M form is intentionally disabled until a private form backend is connected.
+This version keeps the original cozy template, makes **M** uppercase, removes most explanatory homepage copy, and lets the writing lead.
+
+Current first entry: **Starting here**.
+
+To update the live site, upload the contents of this folder to the root of the `mbeforebed.github.io` repository and replace files when GitHub asks.
